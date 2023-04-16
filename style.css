@@ -1,0 +1,154 @@
+.offer{
+background-image: linear-gradient(to right,red,green,yellow);
+text-align: center;
+text-decoration: underline;
+height: 25px;
+font-size: 20px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.homepage{
+    width: 650px;
+    height: 75px;
+    background-color:rgb(107, 202, 202);
+    border: 5px solid red;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.gridbox{
+    height: 137px;
+    background-color: aquamarine;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.parent{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 10px;
+}
+.gridbox4{
+    grid-column-end: 3;
+}
+.gridbox1{
+    height:60px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+.gridbox4{
+    height:60px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.jee{
+    margin: 20px;
+    height: 30px;
+    background-image: linear-gradient(to right,red,rgb(132, 165, 42),red);
+    text-align: center;
+    text-decoration: underline;
+}
+.names{
+height: 300px;
+border: 2px solid green;
+background-image: radial-gradient(blue,green);
+display: grid;
+grid-template-columns: auto auto auto auto;
+justify-content: center;
+column-gap: 30px;
+}
+.name{
+    background-color: yellow;
+    height: 120px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 70px;
+    text-align: center;
+}
+.ul{
+    text-decoration: underline;
+}
+.bottom{
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.details{
+    display: grid;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-columns: 450px 450px 400px ;
+}
+
+.box1{
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 1/5;
+}
+.box2{
+   height: 80px;
+   background-color: green;
+}
+.box3{
+    height: 80px;
+    background-color: rgb(66, 66, 146);
+}
+.box4{
+    height: 80px;
+    background-color: blue;
+}
+.box5{
+background-color:black;
+height: 190px;
+grid-column: 4/4;
+grid-row:2/4 ;
+color: white;
+text-decoration: underline;
+font-size: 15px;
+line-height: 18px;
+
+}
+.box6{
+background-color:orange;
+height: 100px;
+grid-column:1/4;
+color: white;
+font-size: 20px;
+}
+.box7{
+    height: 40px;
+    background-color: aqua;
+    grid-column: 1/5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: auto;
+
+}
+.doubt{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+.off{
+    color: white;
+    font-size: 30px;
+    margin-top: auto;
+}
+.assure{
+    color: white;
+    margin-top: auto;
+    font-size: 24px;
+}
+
